@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Source Sans Bold";
+    src: url(source-sans-pro.bold.ttf);
+}
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url(source-sans-pro.regular.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Regular";
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 15px;
+}
+
+.mobile-container {
+    margin: 50px auto;
+    max-width: 375px;
+    height: 612px;
+    border: 4px solid;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+header {
+    border-bottom: 1px solid #C6C6C6;
+    padding: 0 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 5px 0;
+    gap: 10px;
+}
+
+.align-right {
+    margin-left: auto;
+}
+/* Section Body */
+
+section {
+    width: 100%;
+    height: 545px;
+    overflow-y: scroll;
+    margin: 0 auto;
+   
+}
+
+section::-webkit-scrollbar {
+  display: none;
+}
+
+/* Fonts */
+
+h2, h3, p, span {
+    font-size: 13px;
+}
+
+.fa-plus {
+    justify-self: flex-end;
+}
+
+i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 127px;
+}
+
+
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.post-section-box {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.user-info {
+    display: inline-block;
+    margin-left: 7px;
+   
+}
+
+.user-name {
+    font-family: "Source Sans Bold", sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.user-location {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.post-image {
+    width: 100%;
+    overflow: hidden;
+    height: 375px;
+    margin-top: 11px;
+}
+
+.post-image img {
+    width: 375px;
+}
+
+.post-body {
+    margin-top: 21px;
+}
+
+.post-details {
+    display: flex;
+    font-size: 5px;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+.post-detail {
+    display: flex;
+    gap: 4px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.username-caption {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.username, .users-post-text {
+    display: inline;
+    margin-top: 0;
+}
+
+.liked {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.post-reply {
+    border-top: 1px solid lightgray;
+    
+    padding: 10px 0 0px 0;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.post-inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.post-reply:last-child {
+    margin-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+
+
