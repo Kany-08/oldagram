@@ -1,4 +1,4 @@
-# oldagram
+# oldagram (instagram clone)
 
 ## funny social network platform 
 ### functionalities:
